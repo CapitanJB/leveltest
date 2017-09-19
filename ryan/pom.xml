@@ -7,9 +7,6 @@
   <name>Test Ryan</name>
   <description>Test Ryan</description>
   
-  <properties>
-    <failOnMissingWebXml>false</failOnMissingWebXml>
-	</properties>
   
   <dependencies>
     <dependency>
@@ -17,6 +14,23 @@
         <artifactId>spring-context</artifactId>
         <version>4.3.11.RELEASE</version>
     </dependency>
+    <dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+	</dependency>
+	<dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <version>2.6.1</version>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>jcl-over-slf4j</artifactId>
+	</dependency>
 </dependencies>
   
 </project>
